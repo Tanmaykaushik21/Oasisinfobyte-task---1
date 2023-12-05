@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+.backgroundimage{
+    height: 100%;
+    width: 100%;
+    background: url(main2.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    filter: blur(4px);
+
+}
+nav{
+    width: 100%;
+    height: 70px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+text-decoration: none;
+margin-left:10px ;
+margin-right: 15px;
+
+color:#fff;
+font-size: 20px;
+}
+.tags{
+    font-size: 15px;
+    
+}
+.reg{
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    
+    color: rgb(0, 0, 0);
+    /* background: linear-gradient(135deg ,#ede15c,#ff6b6b,rgb(0, 225, 255)); */
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+
+/* hero */
+.hero{
+    text-align: left;
+    padding: 180px 100px 100px 100px;
+}
+.enjoy{
+    font-size: 22px;
+    color: #fff;
+
+}
+.agency{
+    font-size: 50px;
+    color: #fff; 
+    /* color: linear-gradient(135deg ,#fdfffe,#1f1b39); */
+    font-weight: 700;
+}
+.regi{
+    width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bodybutton{
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
+.newbutton{height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    border: 1px solid rgb(187, 187, 187);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+
+}
+
